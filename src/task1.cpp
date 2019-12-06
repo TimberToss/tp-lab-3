@@ -15,5 +15,5 @@ double calcCost(){
     Circle pool = Circle(3);
     Circle road = Circle(4);
 
-    return (road.getArea() - pool.getArea()) * 1000 + road.getRadius() * 2000.0;
+    return (road.getArea() - pool.getArea()) * 1000 + road.getFerence() * 2000.0;
 }
